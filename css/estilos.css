@@ -1,0 +1,168 @@
+/* Imports de fuentes */
+
+@import url('https://fonts.googleapis.com/css?family=Fredoka+One');
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+/*Fin  Imports de fuentes */
+
+
+/* Navbar */
+
+body, nav, footer{
+    margin: auto;
+    max-width: 1600px;
+}
+
+h4{
+   font-family: 'Fredoka One', cursive; 
+}
+
+.brand-logo {
+    font-family: 'Fredoka One', cursive;
+}
+
+.logo {
+    width: 140px;
+}
+
+/* Fin Navbar */
+
+/* estilos fondo principal index*/
+
+.fondo-img{
+    background-image: url('../img/fondo-index.png');
+}
+
+.contenedor{
+    padding: 130px 0px;
+}
+
+.abtn{
+    margin: 15px;
+}
+
+
+.tituloP{
+    font-size: 40px;
+    font-family: 'Fredoka One', cursive;
+
+}
+
+.slogan{
+    font-size: 18px;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+    
+/* fin estilos fondo principal index*/
+
+/*Contenedor mejores apps*/
+
+.main-container{
+    background-image: url('../img/fondo2.jpg');
+    padding: 40px;
+}
+
+.tituloApps{
+    font-weight: bold;
+}
+
+.content-app{
+
+    font-family: 'Nunito', sans-serif;
+}
+
+.subtitulos{
+
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
+    margin-bottom: 50px;
+
+}
+
+.app{
+    
+    background-color: rgba(255, 255, 255, .4);
+    font-family: 'Nunito', sans-serif;
+    margin: 5px;
+    padding: 30px 20px;
+
+}
+
+.titulos{
+
+    font-family: 'Fredoka One', cursive;
+
+}
+/*Fin contenedor mejores apps*/
+
+
+/* Inicio quienes somos */
+
+.qsomos{
+    margin: 90px 0px 20px;
+}
+
+.tabs{
+    background-color: rgba(255, 255, 255, .5);
+    font-family: 'Fredoka One', cursive;
+}
+
+.tabs .tab a:focus, .tabs .tab a:focus.active{
+    background-color: rgba(13, 71, 161, .1);
+}
+.tabs .indicator{
+    background-color: #42a5f5;
+}
+
+.img-float{
+    margin: 30px 20px 20px;
+}
+
+.content{
+    margin: 30px 20px 20px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .5);
+}
+
+.parrafo{
+    font-family: 'Nunito', sans-serif;
+}
+
+
+/* Inicio quienes somos */
+
+
+/* Media query */
+
+@media only screen and (max-width: 500px) and (min-width: 100px) {
+   
+    nav .brand-logo{
+        font-size: 1.5rem;
+    }
+
+    .abtn{
+        margin: 15px;
+    }
+
+    .contenedor{
+        padding: 50px 0px;
+    }
+
+    .main-container{
+        padding: 5px;
+    }
+
+    .img-float{
+        margin: 5px 3px 3px;
+    }
+
+    .content{
+        margin: 5px 3px 3px;
+        padding: 10px;
+    }
+
+
+}
