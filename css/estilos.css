@@ -132,7 +132,32 @@ h4{
 }
 
 
-/* Inicio quienes somos */
+/* Fin quienes somos */
+
+
+/* Estilos formularios */
+
+.input-field label {
+    color: #000;
+}
+
+/* Fin estilos formularios
+
+/* inicio registro */
+
+.registro-content{
+    padding: 20px;
+}
+
+/* fin registro */
+
+/* inicio login */
+
+.login-content{
+    padding: 50px;
+}
+
+/* fin login */
 
 
 /* Media query */
@@ -163,6 +188,8 @@ h4{
         margin: 5px 3px 3px;
         padding: 10px;
     }
+    
 
-
+    
 }
+
