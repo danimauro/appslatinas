@@ -135,7 +135,7 @@ h4{
 /* Fin quienes somos */
 
 
-/* Estilos formularios */
+/* Inicio Estilos formularios */
 
 .input-field label {
     color: #000;
@@ -143,19 +143,27 @@ h4{
 
 /* Fin estilos formularios
 
-/* inicio registro */
-
+ inicio registro */
 .registro-content{
-    padding: 20px;
+    margin: 40px 20px;
 }
 
+.card-margen{
+    padding: 20px;
+}
+.tituloFormReg{
+
+    font-family: 'Fredoka One', cursive;
+    font-size: 25px;
+
+}
+
+.form-reg{
+    margin: 20px 0px 0px;
+}
 /* fin registro */
 
 /* inicio login */
-
-.login-content{
-    padding: 50px;
-}
 
 /* fin login */
 
