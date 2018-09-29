@@ -141,9 +141,26 @@ h4{
     color: #000;
 }
 
+ /* estilo del icono */
+ .input-field .prefix.active {
+    color: darkblue;
+  }
+
 /* Fin estilos formularios
 
  inicio registro */
+
+.fondoreg{
+
+    background-image: url('../img/fondo2.jpg');
+    padding: 40px;
+}
+
+.fondoform{
+
+    background-image: url('../img/fondo-index.png');
+}
+
 .registro-content{
     margin: 40px 20px;
 }
@@ -155,8 +172,24 @@ h4{
 
     font-family: 'Fredoka One', cursive;
     font-size: 25px;
+}
+
+.botonflotante{
+    
+    position: static;
+
+    right: 10px;
+
+    bottom: 10px;
+
+    padding-top: 5px;
+
+    margin-bottom: 0;
+
+    z-index: 997;
 
 }
+
 
 .form-reg{
     margin: 20px 0px 0px;
