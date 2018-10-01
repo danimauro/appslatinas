@@ -44,14 +44,14 @@
                         </div>
                         <form action="" class="form-reg">
                             <div class="row">
-                                <div class="input-field col s6 m6 l4">
+                                <div class="input-field col s12 m6 l4">
                                     <i class="material-icons prefix">face</i>
                                     <input class="validate" type="text" id="nombre">
                                     <label for="nombre">Nombres</label>
                                 </div>
 
 
-                                <div class="input-field col s6 m6 l4">
+                                <div class="input-field col s12 m6 l4">
                                     <i class="material-icons prefix">face</i>
                                     <input class="validate" type="text" id="apellidos">
                                     <label for="apellidos">Apellidos</label>
@@ -93,41 +93,31 @@
                                     <input class="validate" type="password" id="passwordd">
                                     <label for="passwordd">Repita la contraseña</label>
                                 </div>
-                                <div class="input-field col s6 m6 l3 ">
-                                    <a class=" btn waves-effect waves-light blue darken-4" onclick="M.toast({html:'Gracias por registrarse',classes:'rounded', completeCallback: function(){alert('Acontinuacion se le enviara un mensaje de confirmacion a su correo electronico')}})"><i class="material-icons left">add</i>Enviar Datos</a>
-                                    <!--on click para el mensaje toast 
-                                                onclick="displayCustomHTMLToast()"-->
-                                </div>
-                                <div class="input-field col 12 m6 l4">
+                                <div class="input-field col 12 m12 l6">
                                     <input type="checkbox" class="filled-in" checked="checked" />
                                     <span>Acepta Terminos y Condiciones</span>
                                     <a href="#">Leer Terminos y Condiciones</a>
+                                    <br><br>
+                                    <a class="btn waves-effect waves-light blue darken-4" onclick="M.toast({html:'Gracias por registrarse',classes:'rounded', completeCallback: function(){alert('Acontinuacion se le enviara un mensaje de confirmacion a su correo electronico')}})"><i class="material-icons left">add</i>Enviar Datos</a>
+                                    <!--on click para el mensaje toast 
+                                                onclick="displayCustomHTMLToast()"-->
                                 </div>
-
+                               
                                 <!--inicio login-->
-                                <div class="col s4 m4 l3 center-align">
+
+                                <div class="col s4 m4 l6 center-align hide-on-med-and-down">
                                     <a href="#" class="tituloFormReg blue-text text-darken-4">Iniciar Sesion: </a>
+                                    <br>
+                                    <a class="btn-floating blue btn modal-trigger" href="#modallogin"><i class="material-icons">cloud</i></a>
+                                        <a class="btn-floating blue btn darken-4" href="#"><i class="fab fa-facebook"></i></a>
+                                        <a class="btn-floating red  btn darken-1" href="#"><i class="fab fa-google"></i></a>
                                 </div>
 
-                                <!--inicio boton flotante -->
-                                <div class="col s2 m2 l2">
-                                    <div class="botonflotante">
-                                        <a class="btn-floating btn blue darken-4">
-                                            <i class="material-icons">mode_edit</i>
-                                        </a>
-                                        <ul>
-                                            <li><a class="btn-floating blue btn modal-trigger" href="#modallogin"><i class="material-icons">cloud</i></a></li>
-                                            <li><a class="btn-floating blue btn darken-4" href="#"><i class="fab fa-facebook"></i></a></li>
-                                            <li><a class="btn-floating red  btn darken-1" href="#"><i class="fab fa-google"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <!--fin boton flotante-->
-                                <!--fin login-->
+                                 <!--fin login-->
 
-                            </div>
-                        </form>
-                    </div>
+                            </div>    
+                        </form>        
+                    </div>    
                 </div>
             </div>
         </div>
@@ -158,6 +148,22 @@
     </div>
 
     <!-- Fin modal login-->
+
+    <!--inicio boton flotante Movil y Tablet-->
+    <div class="hide-on-large-only">
+
+        <div class="fixed-action-btn">
+            <a class="btn-floating btn-large red">
+                <i class="large material-icons">mode_edit</i>
+            </a>
+            <ul>
+                 <li><a class="btn-floating blue btn modal-trigger" href="#modallogin"><i class="material-icons">cloud</i></a></li>
+                 <li><a class="btn-floating blue btn darken-4" href="#"><i class="fab fa-facebook"></i></a></li>
+                 <li><a class="btn-floating red  btn darken-1" href="#"><i class="fab fa-google"></i></a></li>
+            </ul>
+        </div>
+    </div>
+     <!--inicio boton flotante Movil y Tablet-->   
 
 
 
@@ -199,10 +205,8 @@
             var instances = M.Modal.init(elems);
 
 
-            var elems = document.querySelectorAll('.botonflotante');
-            var instances = M.FloatingActionButton.init(elems, {
-                direction: 'left',
-            });
+            var elems = document.querySelectorAll('.fixed-action-btn');
+            var instances = M.FloatingActionButton.init(elems)
             var toastElement = document.querySelector('.toast');
             var toastInstance = M.Toast.getInstance(toastElement);
             toastInstance.dismiss();
