@@ -8,13 +8,15 @@
 
 /* Navbar */
 
-body, nav, footer{
+body,
+nav,
+footer {
     margin: auto;
     max-width: 1600px;
 }
 
-h4{
-   font-family: 'Fredoka One', cursive; 
+h4 {
+    font-family: 'Fredoka One', cursive;
 }
 
 .brand-logo {
@@ -25,109 +27,107 @@ h4{
     width: 140px;
 }
 
+
 /* Fin Navbar */
+
 
 /* estilos fondo principal index*/
 
-.fondo-img{
+.fondo-img {
     background-image: url('../img/fondo-index.png');
 }
 
-.contenedor{
+.contenedor {
     padding: 130px 0px;
 }
 
-.abtn{
+.abtn {
     margin: 15px;
 }
 
-
-.tituloP{
+.tituloP {
     font-size: 40px;
     font-family: 'Fredoka One', cursive;
-
 }
 
-.slogan{
+.slogan {
     font-size: 18px;
     font-family: 'Nunito', sans-serif;
     font-weight: bold;
     margin-bottom: 30px;
 }
 
-    
+
 /* fin estilos fondo principal index*/
+
 
 /*Contenedor mejores apps*/
 
-.main-container{
+.main-container {
     background-image: url('../img/fondo2.jpg');
     padding: 40px;
 }
 
-.tituloApps{
+.tituloApps {
     font-weight: bold;
 }
 
-.content-app{
-
+.content-app {
     font-family: 'Nunito', sans-serif;
 }
 
-.subtitulos{
-
+.subtitulos {
     font-family: 'Nunito', sans-serif;
     font-size: 18px;
     margin-bottom: 50px;
-
 }
 
-.app{
-    
+.app {
     background-color: rgba(255, 255, 255, .4);
     font-family: 'Nunito', sans-serif;
     margin: 5px;
     padding: 30px 20px;
-
 }
 
-.titulos{
-
+.titulos {
     font-family: 'Fredoka One', cursive;
-
 }
+
+
 /*Fin contenedor mejores apps*/
 
 
 /* Inicio quienes somos */
 
-.qsomos{
+.qsomos {
     margin: 90px 0px 20px;
 }
 
-.tabs{
+.tabs {
     background-color: rgba(255, 255, 255, .5);
     font-family: 'Fredoka One', cursive;
 }
 
-.tabs .tab a:focus, .tabs .tab a:focus.active{
+.tabs .tab a:focus,
+.tabs .tab a:focus.active {
     background-color: rgba(13, 71, 161, .1);
 }
-.tabs .indicator{
+
+.tabs .indicator {
     background-color: #42a5f5;
 }
 
-.img-float{
+.img-float {
     margin: 30px 20px 20px;
 }
 
-.content{
+.content {
     margin: 30px 20px 20px;
     padding: 20px;
     background-color: rgba(255, 255, 255, .5);
 }
 
-.parrafo{
+.parrafo {
     font-family: 'Nunito', sans-serif;
 }
 
@@ -141,62 +141,60 @@ h4{
     color: #000;
 }
 
- /* estilo del icono */
- .input-field .prefix.active {
+
+/* estilo del icono */
+
+.input-field .prefix.active {
     color: darkblue;
-  }
-
-/* Fin estilos formularios
-
- inicio registro */
-
-.fondoreg{
-
-    background-image: url('../img/fondo2.jpg');
-    padding: 40px;
 }
 
-.fondoform{
 
+/* Fin estilos formularios */
+
+
+/* inicio registro */
+
+.fondoreg {
+    background-image: url('../img/fondo2.jpg');
+    padding: 50px 110px;
+}
+
+.fondoform {
     background-image: url('../img/fondo-index.png');
 }
 
-.registro-content{
+.registro-content {
     margin: 40px 20px;
 }
 
-.card-margen{
+.card-margen {
     padding: 20px;
 }
-.tituloFormReg{
 
+.tituloFormReg {
     font-family: 'Fredoka One', cursive;
     font-size: 25px;
 }
 
-.botonflotante{
-    
-    position: static;
-
-    right: 10px;
-
-    bottom: 10px;
-
-    padding-top: 5px;
-
-    margin-bottom: 0;
-
-    z-index: 997;
-
-}
-
-
-.form-reg{
+.form-reg {
     margin: 20px 0px 0px;
 }
+
+
 /* fin registro */
 
+
 /* inicio login */
+
+.botonflotante {
+    position: static;
+    right: 10px;
+    bottom: 10px;
+    padding-top: 5px;
+    margin-bottom: 0;
+    z-index: 997;
+}
+
 
 /* fin login */
 
@@ -204,33 +202,23 @@ h4{
 /* Media query */
 
 @media only screen and (max-width: 500px) and (min-width: 100px) {
-   
-    nav .brand-logo{
+    nav .brand-logo {
         font-size: 1.5rem;
     }
-
-    .abtn{
+    .abtn {
         margin: 15px;
     }
-
-    .contenedor{
+    .contenedor {
         padding: 50px 0px;
     }
-
-    .main-container{
+    .main-container {
         padding: 5px;
     }
-
-    .img-float{
+    .img-float {
         margin: 5px 3px 3px;
     }
-
-    .content{
+    .content {
         margin: 5px 3px 3px;
         padding: 10px;
     }
-    
-
-    
 }
-
