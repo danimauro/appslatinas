@@ -176,6 +176,11 @@ h4 {
     font-size: 30px;
 }
 
+.tituloLogin {
+    font-family: 'Fredoka One', cursive;
+    font-size: 20px;
+}
+
 .form-reg {
     margin: 20px 0px 0px;
 }
@@ -222,5 +227,7 @@ h4 {
         background-image: url('../img/fondo2.jpg');
         padding: 30px 50px;
     }
+
+    
 
 }
