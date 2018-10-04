@@ -169,6 +169,7 @@ h4 {
 
 .card-margen {
     padding: 20px;
+    background-color: #fff;
 }
 
 .tituloFormReg {
@@ -196,6 +197,11 @@ h4 {
     height: 300px;
     width: 100%;
     border: 0;
+    padding: 5px;
+}
+
+.form-contacto{
+    padding: 20px;
 }
 
 
