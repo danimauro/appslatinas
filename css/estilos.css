@@ -189,6 +189,16 @@ h4 {
 /* fin registro */
 
 
+/* inicio contacto*/
+
+.mapa{
+
+    height: 300px;
+    width: 100%;
+    border: 0;
+}
+
+
 
 
 /* Media query */
